@@ -1,0 +1,324 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tem",
+				"template_name"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"dea",
+				"dealer_name"
+			],
+			[
+				"xls",
+				"xls_rows"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"xl",
+				"xls_rows"
+			],
+			[
+				"sC",
+				"sChannel"
+			],
+			[
+				"chan",
+				"dealer_channel"
+			],
+			[
+				"put",
+				"put_channel_title"
+			],
+			[
+				"press",
+				"press-release"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1951,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: is",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/footer.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/functions.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/header.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/page.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/content.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/page-templates/front-page.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/page-templates/employers.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/home.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/zp_maw/content-front-page.php",
+		"/Users/buddhi/Dropbox/Projects/ZP_MAW/MAW_HTMM_CSS_20130522/employers.html",
+		"/Users/buddhi/Sites/maw/wp-content/themes/maw_theme/footer.php",
+		"/Users/buddhi/Sites/maw/wp-content/themes/maw_theme/style.css",
+		"/Users/buddhi/Sites/bridgestone/backend/db-config.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/bb/weekly-referrals_with_channels_buddhi.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/bb/weekly-referrals_buddhi.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/bb/weekly-referrals_with_channels.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/bb/weekly-referrals.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/islandwide/dealers-weekly_01_30_March.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/islandwide/dealers-monthly_01_30_March.php",
+		"/Users/buddhi/Sites/bridgestone/admin/reports/islandwide/dealers-weekly_01_30_March_buddhi.php",
+		"/Users/buddhi/Sites/bridgestone/newspage2013.html",
+		"/Users/buddhi/Sites/bridgestone/index.html",
+		"/Users/buddhi/Sites/bridgestone/backend/wp-content/plugins/press-releases-module/press_releases_admin.php",
+		"/Users/buddhi/Desktop/bridgead_wpdb.sql",
+		"/Users/buddhi/Sites/bridgestone/backend/wp-content/plugins/press-releases-module/press_releases.php",
+		"/Users/buddhi/Sites/bridgestone/backend/wp-content/plugins/press-releases-module/lib/metaboxes_press_release.php",
+		"/Users/buddhi/Sites/bridgestone/backend/wp-content/plugins/press-releases-module/lib/post_type_press_releases.php",
+		"/Users/buddhi/Sites/bridgestone-dev/wp-content/plugins/customer-module/customer_module.php",
+		"/Users/buddhi/Sites/bridgestone-dev/wp-content/plugins/customer-module/app/config/bootstrap.php",
+		"/Users/buddhi/Sites/bridgestone-dev/wp-content/plugins/customer-module/app/public/css/admin.css",
+		"/Users/buddhi/Sites/bridgestone-dev/wp-content/plugins/dealer-module/app/public/css/styles.css",
+		"/Users/buddhi/Sites/bridgestone-dev/wp-content/plugins/dealer-module/dealer_module.php",
+		"/Users/buddhi/Library/Application Support/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings",
+		"/Users/buddhi/Sites/bridgestone-dev/wp-content/plugins/dealer-module/app/config/bootstrap.php",
+		"/Users/buddhi/Library/Application Support/Sublime Text 3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/Users/buddhi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/buddhi/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/buddhi/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"menu",
+			"echo CHILD_URL",
+			"echo CHILD_URL ?>/images/ ",
+			"28",
+			"echo get_template_directory_uri(); ?>/images/",
+			"echo bloginfo( 'stylesheet_url' ) ?>/images/",
+			"\"images/",
+			"bloginfo('url')",
+			"bloginfo('url') ?>/images",
+			"src=\"<?php echo bloginfo('<?php bloginfo( 'url' ); ?>') ?>/images/",
+			"src=\"images/",
+			"../images",
+			"array_push",
+			"set_subheader_style",
+			"$row",
+			":K",
+			"$xls_rows)",
+			"$xls_rows",
+			"set_overall_col_style",
+			"dealer_title_row",
+			"$total",
+			"dealer_name",
+			"$dealer",
+			"new_signups",
+			"http://www.bridgestone.com.sg/bswp/bridgestone-dev",
+			"press_releases_meta_body",
+			"press-release",
+			"ipad_meta_abstract",
+			"bridgestone_press_release_body",
+			"add_styles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"echo get_bloginfo('template_url')",
+			"echo get_bloginfo('template_url') ?>/images/",
+			"echo CHILD_URL ?>/images/",
+			"echo get_template_directory_uri(); ?>/images/",
+			"\"<?php echo bloginfo( 'stylesheet_url' ) ?>/images/",
+			"bloginfo( 'stylesheet_url' )",
+			"bloginfo('<?php bloginfo( 'stylesheet_url' ); ?>') ?>/images/",
+			"src=\"<?php echo bloginfo('<?php bloginfo( 'stylesheet_url' ); ?>') ?>/images/",
+			"src=\"<?php echo bloginfo('url') ?>/images/",
+			"images",
+			"http://www.bridgestone.com.sg/b"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "zp_maw.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

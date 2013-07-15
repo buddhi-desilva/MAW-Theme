@@ -1,0 +1,1 @@
+<?php maw_genesis(); ?>
