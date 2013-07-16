@@ -1,0 +1,134 @@
+.navigation {
+	ul {
+		li {
+			a {
+				padding:0 20px 14px;
+			}
+
+			&.current_page_item {
+
+				a {
+					border-bottom:5px solid $fleshColor;
+				}
+			}
+
+			&.btn-praises {
+				margin-left:237px;
+			}
+		}
+	}
+}
+.page-template-page-flexiwork-mums-php, .page-template-page-employers-php, .page-template-page-mumpreneurs-php {
+	.header {
+		width: 100%;
+		background-color: $greenColor;
+		position: relative;
+
+		.wrap {
+			width: 100%;
+			padding-top: 80px;
+		}
+
+		.logo {
+			position: relative;
+			top: 0;
+			left: 0;
+			z-index: 50;
+			width: 940px;
+			margin: 0 auto;
+
+			a {
+				position: absolute;
+				left: 0;
+				top:-80px;
+			}
+		}
+	}
+	.navigation {
+		background-color:saturate(darken($greenColor, 20),50);
+		display: block;
+
+		ul {
+			margin: 0;
+			padding: 0;
+			text-align: right;
+			width: 940px;
+			margin: 0 auto;
+
+			li {
+				display: inline-block;
+				padding: 10px 0;
+				margin-left: 30px;
+
+				a {
+					font-family: 'Droid Sans', serif;
+					font-size: 0.875em;
+					color:$greenColor;
+					display: block;
+					text-align: left;
+					padding: 0;
+					border-bottom: none;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.page-template-page-employers-php{
+	.navigation{
+		background-color:saturate(darken($pinkColor, 20),50);
+		ul{
+			li{
+				a{
+					color:#E88AB1;
+				}
+			}
+		}
+	}
+}
+
+.page-template-page-mumpreneurs-php{
+	.navigation{
+		background-color:saturate(darken($purpleColor, 11),10);
+		ul{
+			li{
+				a{
+					color:#9B88A2;
+				}
+			}
+		}
+	}
+}
+
+.footer-wrapper {
+	.as-seen-in-block {
+		h3 {
+			span {
+				padding-left: 10px;
+			}
+		}
+	}
+	.footer {
+		.footer-misc-links {
+			list-style:none;
+			margin:0;
+			padding:0;
+
+			li {
+				display:inline-block;
+
+				a {
+					margin:0 3px;
+				}
+
+				+ li {
+					border-left:1px solid #fff;
+
+					a {
+						margin:0 3px 0 6px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,16 +1,16 @@
 <?php /*
-Template Name: Mumpreneurs
+Template Name: Flexiwork mums
 */ ?>
 <?php
 remove_action( 'genesis_post_content', 'genesis_do_post_content' );
 add_action( 'genesis_post_content', 'maw_page_content' );
-add_action( 'genesis_before_post_title', 'maw_employer_form' );
+add_action( 'genesis_before_post_title', 'maw_flexiwork_mum_form' );
 
 
-function maw_employer_form () { ?>
+function maw_flexiwork_mum_form () { ?>
   <div class="signup-form">
     <form class="newsletter-form">
-      <h1>Mumpreneurs</h1>
+      <h1>Flexiwork Mums</h1>
       <p>Subscribe to our FREE Newsletter</p>
       <div class="form-inputs">
         <input type="text" placeholder="Your Full Name" />
@@ -20,13 +20,14 @@ function maw_employer_form () { ?>
         <input type="submit" class="btn-signup" value="Sign Me Up!" />
       </div>
     </form><!--
-    --><img class="img-mumpreneurs-banner" src="<?php echo CHILD_URL ?>/images/img_trans.gif" alt="Next" />
+    --><img class="img-flexiwork-mums-banner" src="images/img_trans.gif" alt="Next" />
   </div>
 <?php }
 
 
 function maw_page_content () { ?>
-  
+  <div class="content">
+    <div class="wrap">
 
       <?php
         global $post;
@@ -53,8 +54,9 @@ function maw_page_content () { ?>
             the_content( __( '[Read more...]', 'genesis' ) );
         }
        ?>
-       <a href="#news-block" class="btn-circle-arrow-down"><img class="img-circle-arrow-down" src="<?php echo CHILD_URL ?>/images/img_trans.gif" alt="Next" /></a>
-    
+
+    </div>
+  </div>
 
 
 <?php } ?>

@@ -1,0 +1,75 @@
+
+.content {
+	h2 {
+		line-height:37px;
+		margin-bottom:20px;
+		color:$pinkColor;
+	}
+	.wrap {
+		padding:45px 0;
+	}
+
+}
+.page-template-page-flexiwork-mums-php, .page-template-page-employers-php, .page-template-page-mumpreneurs-php {
+	.news-block {
+		.wrap {
+			.news-content {
+				.news-title {
+					color:$darkColor;
+				}
+			}
+		}
+	}
+}
+.page-template-page-flexiwork-mums-php {
+	.content {
+		h2 {
+			color:$greenColor;
+		}
+	}
+}
+.page-template-page-employers-php {
+	.content {
+		h2 {
+			color:$pinkColor;
+		}
+	}
+}
+
+.page-template-page-mumpreneurs-php {
+	.content {
+		h2 {
+			color:$purpleColor;
+		}
+	}
+}
+.signup-form {
+	margin-bottom:0;
+}
+.footer-wrapper {
+	.as-seen-in-block {
+		.as-feature-in {
+			width:75%;
+			display:inline-block;
+			vertical-align:top;
+			padding: 0 10px 0 0;
+			@include box-sizing;
+			text-align:center;
+
+			img {
+				max-width: 100%;
+			}
+		}
+		.member-of {
+			width:25%;
+			display:inline-block;
+			@include box-sizing;
+			padding: 0 0 0 10px;
+			text-align:center;
+
+			img {
+				max-width:100%;
+			}
+		}
+	}
+}

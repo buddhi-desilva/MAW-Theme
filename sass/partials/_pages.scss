@@ -1,0 +1,155 @@
+.page-template-page-employers-php{
+
+	.header{
+		background-color:$pinkColor				
+	}
+
+	.signup-form{
+		background:url(#{$images}signup-form-bg-02.png) no-repeat bottom right;
+		.newsletter-form{
+
+			h1{
+				color:$pinkColor;
+				border-bottom:1px solid $pinkColor;
+			}
+
+			.btn-signup{
+				background-color:$pinkColor;
+
+				&:hover{
+					background-color:saturate(darken($pinkColor, 11),10);
+				}
+			}
+
+		}
+
+	}
+
+	.content {
+		h2 {
+			color:$pinkColor;
+		}
+	}
+
+	.news-block{
+
+		.wrap{
+			.news-head{
+				color:$pinkColor;
+			}
+
+
+			.pagination{	
+
+				li{
+					
+					a{
+
+						&:hover{
+							background:$pinkColor;		
+						}
+
+					}
+
+					&.active{
+
+						a{
+							background:$pinkColor;	
+						}
+					}
+				}
+			}
+			.btn-read-more{
+				background-color:$pinkColor;
+
+				&:hover{
+					background-color:saturate(darken($pinkColor, 11),10);
+				}
+			}
+
+
+			
+
+		}
+	}
+}
+
+
+
+.page-template-page-mumpreneurs-php{
+
+	.header{
+		background-color:$purpleColor;
+
+		
+	}
+
+	.signup-form{
+		background:url(#{$images}signup-form-bg-03.png) no-repeat bottom right;
+		.newsletter-form{
+
+			h1{
+				color:$purpleColor;
+				border-bottom:1px solid $purpleColor;
+			}
+
+			.btn-signup{
+				background-color:$purpleColor;
+
+				&:hover{
+					background-color:saturate(darken($purpleColor, 11),10);
+				}
+			}
+
+		}
+
+	}
+
+	.content {
+		h2 {
+			color:$purpleColor;
+		}
+	}
+
+	.news-block{
+
+		.wrap{
+			.news-head{
+				color:$purpleColor;
+			}
+
+
+			.pagination{	
+
+				li{
+					
+					a{
+
+						&:hover{
+							background:$purpleColor;		
+						}
+
+					}
+
+					&.active{
+
+						a{
+							background:$purpleColor;	
+						}
+					}
+				}
+			}
+			.btn-read-more{
+				background-color:$purpleColor;
+
+				&:hover{
+					background-color:saturate(darken($purpleColor, 11),10);
+				}
+			}
+
+
+			
+
+		}
+	}
+}

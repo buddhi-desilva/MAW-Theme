@@ -45,7 +45,7 @@ wp_head(); /** we need this for plugins **/
             <span></span>
             <span></span>
           </a>
-          <div class="logo"><a href="#"><img src="<?php echo CHILD_URL ?>/images/img_trans.gif" class="img-logo" alt="Mums at Work Singapore" /></a></div>
+          <div class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo CHILD_URL ?>/images/img_trans.gif" class="img-logo" alt="Mums at Work Singapore" /></a></div>
           <navigation class="navigation" id="navigation" />
             <a class="close" href="javascript:$.pageslide.close()">&times;</a>
             <h2>Navigation</h2>

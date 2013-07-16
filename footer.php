@@ -1,6 +1,6 @@
 
-      <a href="#" class="btn-circle-arrow-down"><img class="img-circle-arrow-down" src="images/img_trans.gif" alt="Next" /></a>
-      <div class="news-block">
+      
+      <div id="news-block" class="news-block">
         <div class="wrap">
           <div class="left-column">
             <h2 class="news-head"><span>Latest News</span></h2>
@@ -57,8 +57,14 @@
       <div class="as-seen-in-block">
       <div class="wrap">
         <a href="#" class="btn-circle-arrow-up"><img class="img-circle-arrow-up" src="<?php echo CHILD_URL ?>/images/img_trans.gif" alt="Next" /></a>
-        <h3><span>As Seen In</span></h3>
-        <img class="img-as-seen-in" src="<?php echo CHILD_URL ?>/images/as-seen-in.png" alt="" />
+        <div class="as-feature-in">
+          <h3><span>As featured in</span></h3>
+          <img class="img-as-seen-in" src="<?php echo CHILD_URL ?>/images/as-seen-in.png" alt="" />
+        </div><!--
+      --><div class="member-of">
+          <h3><span>Member of</span></h3>
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/img-member-of.jpg" alt="" />
+        </div>
       </div>
     </div><!--.as-seen-in-block-->
     <footer class="footer">

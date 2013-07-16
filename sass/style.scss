@@ -1,0 +1,22 @@
+/*07-16-2013*/
+@import "partials/main";
+@import "partials/mixins";
+@import "partials/sprites";
+@import "partials/layout";
+@import "partials/navigation";
+@import "partials/buttons";
+@import "partials/pages";
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	@import "partials/767";
+} // end of media query
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	@import "partials/480";
+}
+
+@media (max-width: 320px) {
+	@import "partials/320";
+} // end of media query

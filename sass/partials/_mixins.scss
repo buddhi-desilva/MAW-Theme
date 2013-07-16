@@ -1,0 +1,67 @@
+///*  ================================================== 
+//    :: variables
+//    ================================================== */
+
+//link colors
+$linkColor:#000;
+$linkHover:#0072BC;
+
+
+//size
+$fontSize: 100%;
+$lineHeight: 20px;
+
+//font colors
+$lightColor:#7A7A7A;
+$darkColor:#535353;
+
+//text colors
+
+$purpleColor:#802D9E;
+$brownColor:#F6C780;
+$lightGreenColor:#70CDBE;
+$greenColor:#3ED4BC;
+$lightPinkColor:#E972A2;
+$pinkColor:#E95793;
+$fleshColor:#F7A8A7;
+$lightOrangeColor:#F9A2A2;
+$orangeColor:#F56D6D;
+
+//image folder
+$images:"images/";
+//usage #{$images}
+
+/* prefixed */
+@mixin border-radius($radius: 3px) {
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin box-shadow($color: #000000, $alfa: 0.25, $x:0px, $y:2px, $area:4px) {
+  -webkit-box-shadow: rgba($color,$alfa) $x $y $area;
+  -moz-box-shadow: rgba($color,$alfa) $x $y $area;
+  box-shadow: rgba($color,$alfa) $x $y $area;
+}
+
+@mixin box-shadow-inset($color: #000000, $alfa: 0.25, $x:0px, $y:2px, $area:4px) {
+  -webkit-box-shadow: rgba($color,$alfa) $x $y $area inset;
+  -moz-box-shadow: rgba($color,$alfa) $x $y $area inset;
+  box-shadow: rgba($color,$alfa) $x $y $area inset;
+}
+
+
+@mixin transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@mixin box-sizing($box-sizing: border-box){
+  -moz-box-sizing: $box-sizing;
+  -webkit-box-sizing: $box-sizing;
+  box-sizing: $box-sizing;
+}
+

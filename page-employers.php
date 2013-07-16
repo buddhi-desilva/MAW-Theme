@@ -20,14 +20,13 @@ function maw_employer_form () { ?>
         <input type="submit" class="btn-signup" value="Sign Me Up!" />
       </div>
     </form><!--
-    --><img class="img-employers-banner" src="images/img_trans.gif" alt="Employers" />
+    --><img class="img-employers-banner" src="<?php echo CHILD_URL ?>/images/img_trans.gif" alt="Employers" />
   </div>
 <?php }
 
 
 function maw_page_content () { ?>
-  <div class="content">
-    <div class="wrap">
+  
 
       <?php
         global $post;
@@ -54,9 +53,8 @@ function maw_page_content () { ?>
             the_content( __( '[Read more...]', 'genesis' ) );
         }
        ?>
-
-    </div>
-  </div>
+       <a href="#news-block" class="btn-circle-arrow-down"><img class="img-circle-arrow-down" src="<?php echo CHILD_URL ?>/images/img_trans.gif" alt="Next" /></a>
+   
 
 
 <?php } ?>
