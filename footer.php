@@ -4,35 +4,28 @@
         <div class="wrap">
           <div class="left-column">
             <h2 class="news-head"><span>Latest News</span></h2>
-            <ul class="news-content">
-              <li class="page-01 active">
+            <div class="news-content carousel" data-paginate>
+              <div class="page-01 active">
                 <a href="#" class="news-title">P-E-A-W-S For Mums Who Want To Be Mumpreneurs</a>
-                <p>Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              </li>
-              <li class="page-02">
+                <p>1. Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              </div>
+              <div class="page-02">
                 <a href="#" class="news-title">P-E-A-W-S For Mums Who Want To Be Mumpreneurs</a>
-                <p>Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              </li>
-              <li class="page-03">
+                <p>2. Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              </div>
+              <div class="page-03">
                 <a href="#" class="news-title">P-E-A-W-S For Mums Who Want To Be Mumpreneurs</a>
-                <p>Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              </li>
-              <li class="page-04">
+                <p>3. Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              </div>
+              <div class="page-04">
                 <a href="#" class="news-title">P-E-A-W-S For Mums Who Want To Be Mumpreneurs</a>
-                <p>Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              </li>
-              <li class="page-05">
+                <p>4. Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              </div>
+              <div class="page-05">
                 <a href="#" class="news-title">P-E-A-W-S For Mums Who Want To Be Mumpreneurs</a>
-                <p>Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              </li>
-            </ul>
-            <ul class="pagination">
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-            </ul>
+                <p>5. Aliquam commodo rhoncus mi. Sed commodo turpis et magna. Curabitur non tellus. Cras nunc mi, aliquam semper, suscipit a, dictum elementum, velit. Quisque vulputate odio id ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              </div>
+            </div>
             <div class="btn-holder">
               <a href="#" class="btn-read-more">Read More</a>
             </div>
@@ -81,8 +74,9 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+  <script>window.jQuery || document.write('<script src="<?php echo CHILD_URL ?>/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+  <script src="<?php echo CHILD_URL ?>/js/responsive-carousel.min.js"></script>
+    <script src="<?php echo CHILD_URL ?>/js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
         });

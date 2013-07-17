@@ -1,4 +1,5 @@
-/*07-16-2013*/
+/*07-17-2013*/
+/* prefixed */
 /*
 	Theme Name: Mums at Work
 	Description: Child theme for Genesis framework
@@ -906,7 +907,7 @@ p {
 /* line 243, ../sass/partials/_layout.scss */
 /* line 791, sass/partials/_main.scss */
 .news-block .wrap .pagination li {
-  display: inline-block;
+  display: inline-block !important;
   position: relative;
   z-index: 2;
   margin-right: 5px;
@@ -927,31 +928,38 @@ p {
   font-weight: 400;
   padding: 4px 7px;
   line-height: 12px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 /* line 262, ../sass/partials/_layout.scss */
-/* line 813, sass/partials/_main.scss */
+/* line 814, sass/partials/_main.scss */
 .news-block .wrap .pagination li a:hover {
   background: #e95793;
   color: #fff;
 }
 
 /* line 271, ../sass/partials/_layout.scss */
-/* line 818, sass/partials/_main.scss */
+/* line 819, sass/partials/_main.scss */
 .news-block .wrap .pagination li.active a {
   background: #e95793;
   color: #fff;
 }
 
 /* line 278, ../sass/partials/_layout.scss */
-/* line 823, sass/partials/_main.scss */
+/* line 824, sass/partials/_main.scss */
 .news-block .wrap .btn-holder {
-  display: inline-block;
-  margin-left: 5px;
+  display: block;
+  float: right;
+  margin-top: -50px;
+  position: relative;
 }
 
 /* line 288, ../sass/partials/_layout.scss */
-/* line 829, sass/partials/_main.scss */
+/* line 832, sass/partials/_main.scss */
 .footer-wrapper .as-seen-in-block {
   background: url(images/bg03.jpg);
   border-top: 1px solid #fff;
@@ -962,13 +970,13 @@ p {
 }
 
 /* line 294, ../sass/partials/_layout.scss */
-/* line 838, sass/partials/_main.scss */
+/* line 841, sass/partials/_main.scss */
 .footer-wrapper .as-seen-in-block .wrap {
   position: relative;
 }
 
 /* line 298, ../sass/partials/_layout.scss */
-/* line 842, sass/partials/_main.scss */
+/* line 845, sass/partials/_main.scss */
 .footer-wrapper .as-seen-in-block h3 {
   width: 100%;
   color: #535353;
@@ -982,7 +990,7 @@ p {
 }
 
 /* line 310, ../sass/partials/_layout.scss */
-/* line 854, sass/partials/_main.scss */
+/* line 857, sass/partials/_main.scss */
 .footer-wrapper .as-seen-in-block h3 span {
   background: url(images/bg03.jpg);
   position: relative;
@@ -991,7 +999,7 @@ p {
 }
 
 /* line 317, ../sass/partials/_layout.scss */
-/* line 861, sass/partials/_main.scss */
+/* line 864, sass/partials/_main.scss */
 .footer-wrapper .as-seen-in-block h3:before {
   content: '';
   position: absolute;
@@ -1004,7 +1012,7 @@ p {
 }
 
 /* line 332, ../sass/partials/_layout.scss */
-/* line 872, sass/partials/_main.scss */
+/* line 875, sass/partials/_main.scss */
 .footer-wrapper .footer {
   background: url(images/bg04.jpg);
   color: #fff;
@@ -1012,21 +1020,21 @@ p {
 }
 
 /* line 340, ../sass/partials/_layout.scss */
-/* line 878, sass/partials/_main.scss */
+/* line 881, sass/partials/_main.scss */
 .footer-wrapper .footer .copyright, .footer-wrapper .footer .links, .footer-wrapper .footer .designer {
   font-size: 0.75em;
   display: inline-block;
 }
 
 /* line 345, ../sass/partials/_layout.scss */
-/* line 883, sass/partials/_main.scss */
+/* line 886, sass/partials/_main.scss */
 .footer-wrapper .footer .wrap {
   padding: 30px 0;
   position: relative;
 }
 
 /* line 349, ../sass/partials/_layout.scss */
-/* line 888, sass/partials/_main.scss */
+/* line 891, sass/partials/_main.scss */
 .footer-wrapper .footer .wrap:before {
   content: '';
   position: absolute;
@@ -1039,7 +1047,7 @@ p {
 }
 
 /* line 362, ../sass/partials/_layout.scss */
-/* line 899, sass/partials/_main.scss */
+/* line 902, sass/partials/_main.scss */
 .footer-wrapper .footer .copyright {
   text-align: left;
   float: left;
@@ -1050,7 +1058,7 @@ p {
 }
 
 /* line 371, ../sass/partials/_layout.scss */
-/* line 908, sass/partials/_main.scss */
+/* line 911, sass/partials/_main.scss */
 .footer-wrapper .footer .links {
   text-align: center;
   width: 150px;
@@ -1062,19 +1070,19 @@ p {
 }
 
 /* line 380, ../sass/partials/_layout.scss */
-/* line 918, sass/partials/_main.scss */
+/* line 921, sass/partials/_main.scss */
 .footer-wrapper .footer .links a {
   color: #fff;
 }
 
 /* line 383, ../sass/partials/_layout.scss */
-/* line 922, sass/partials/_main.scss */
+/* line 925, sass/partials/_main.scss */
 .footer-wrapper .footer .links a:hover {
   text-decoration: underline;
 }
 
 /* line 389, ../sass/partials/_layout.scss */
-/* line 926, sass/partials/_main.scss */
+/* line 929, sass/partials/_main.scss */
 .footer-wrapper .footer .designer {
   text-align: right;
   float: right;
@@ -1085,7 +1093,7 @@ p {
 }
 
 /* line 401, ../sass/partials/_layout.scss */
-/* line 936, sass/partials/_main.scss */
+/* line 939, sass/partials/_main.scss */
 .signup-form {
   background: url(images/signup-form-bg.png) no-repeat bottom center;
   padding-bottom: 48px;
@@ -1094,7 +1102,7 @@ p {
 }
 
 /* line 408, ../sass/partials/_layout.scss */
-/* line 943, sass/partials/_main.scss */
+/* line 946, sass/partials/_main.scss */
 .signup-form .newsletter-form {
   background: #F4F4F4;
   border: 1px solid #D6D6D6;
@@ -1107,7 +1115,7 @@ p {
 }
 
 /* line 418, ../sass/partials/_layout.scss */
-/* line 954, sass/partials/_main.scss */
+/* line 957, sass/partials/_main.scss */
 .signup-form .newsletter-form h1 {
   color: #70cdbe;
   font-size: 2.5em;
@@ -1119,7 +1127,7 @@ p {
 }
 
 /* line 428, ../sass/partials/_layout.scss */
-/* line 964, sass/partials/_main.scss */
+/* line 967, sass/partials/_main.scss */
 .signup-form .newsletter-form p {
   font-size: 1.25em;
   font-family: 'Droid Sans', serif;
@@ -1128,7 +1136,7 @@ p {
 }
 
 /* line 435, ../sass/partials/_layout.scss */
-/* line 971, sass/partials/_main.scss */
+/* line 974, sass/partials/_main.scss */
 .signup-form .newsletter-form .form-inputs {
   width: 275px;
   display: inline-block;
@@ -1136,7 +1144,7 @@ p {
 }
 
 /* line 441, ../sass/partials/_layout.scss */
-/* line 977, sass/partials/_main.scss */
+/* line 980, sass/partials/_main.scss */
 .signup-form .newsletter-form .btn-holder {
   text-align: center;
   display: inline-block;
@@ -1144,26 +1152,26 @@ p {
 }
 
 /* line 449, ../sass/partials/_layout.scss */
-/* line 983, sass/partials/_main.scss */
+/* line 986, sass/partials/_main.scss */
 .signup-form img {
   display: inline-block;
 }
 
 /* line 454, ../sass/partials/_layout.scss */
-/* line 988, sass/partials/_main.scss */
+/* line 991, sass/partials/_main.scss */
 .content {
   width: 100%;
   background: url(images/bg05.jpg);
 }
 
 /* line 458, ../sass/partials/_layout.scss */
-/* line 993, sass/partials/_main.scss */
+/* line 996, sass/partials/_main.scss */
 .content .wrap {
   position: relative;
 }
 
 /* line 462, ../sass/partials/_layout.scss */
-/* line 997, sass/partials/_main.scss */
+/* line 1000, sass/partials/_main.scss */
 .content h2 {
   color: #70cdbe;
   text-align: center;
@@ -1176,7 +1184,7 @@ p {
 }
 
 /* line 473, ../sass/partials/_layout.scss */
-/* line 1008, sass/partials/_main.scss */
+/* line 1011, sass/partials/_main.scss */
 .content h2 span {
   background: url(images/bg05.jpg);
   z-index: 2;
@@ -1185,7 +1193,7 @@ p {
 }
 
 /* line 480, ../sass/partials/_layout.scss */
-/* line 1015, sass/partials/_main.scss */
+/* line 1018, sass/partials/_main.scss */
 .content h2:before {
   content: '';
   position: absolute;
@@ -1198,7 +1206,7 @@ p {
 }
 
 /* line 494, ../sass/partials/_layout.scss */
-/* line 1027, sass/partials/_main.scss */
+/* line 1030, sass/partials/_main.scss */
 .img-block {
   width: 210px;
   display: inline-block;
@@ -1207,7 +1215,7 @@ p {
 }
 
 /* line 500, ../sass/partials/_layout.scss */
-/* line 1034, sass/partials/_main.scss */
+/* line 1037, sass/partials/_main.scss */
 .img-block span {
   display: block;
   padding: 15px 10px;
@@ -1220,13 +1228,13 @@ p {
 }
 
 /* line 1, ../sass/partials/_navigation.scss */
-/* line 1046, sass/partials/_main.scss */
+/* line 1049, sass/partials/_main.scss */
 .navigation {
   z-index: 40;
 }
 
 /* line 4, ../sass/partials/_navigation.scss */
-/* line 1050, sass/partials/_main.scss */
+/* line 1053, sass/partials/_main.scss */
 .navigation ul {
   list-style: none;
   padding: 50px 0 0 33px;
@@ -1235,13 +1243,13 @@ p {
 }
 
 /* line 10, ../sass/partials/_navigation.scss */
-/* line 1057, sass/partials/_main.scss */
+/* line 1060, sass/partials/_main.scss */
 .navigation ul li {
   display: inline-block;
 }
 
 /* line 13, ../sass/partials/_navigation.scss */
-/* line 1061, sass/partials/_main.scss */
+/* line 1064, sass/partials/_main.scss */
 .navigation ul li a {
   font-family: 'Droid Serif', serif;
   font-size: 0.9375em;
@@ -1252,25 +1260,25 @@ p {
 }
 
 /* line 21, ../sass/partials/_navigation.scss */
-/* line 1070, sass/partials/_main.scss */
+/* line 1073, sass/partials/_main.scss */
 .navigation ul li a:hover {
   border-bottom: #f7a8a7 5px solid;
 }
 
 /* line 28, ../sass/partials/_navigation.scss */
-/* line 1074, sass/partials/_main.scss */
+/* line 1077, sass/partials/_main.scss */
 .navigation ul li.active a {
   border-bottom: #f7a8a7 5px solid;
 }
 
 /* line 33, ../sass/partials/_navigation.scss */
-/* line 1078, sass/partials/_main.scss */
+/* line 1081, sass/partials/_main.scss */
 .navigation ul li .btn-praises {
   margin-left: 237px;
 }
 
 /* line 39, ../sass/partials/_navigation.scss */
-/* line 1082, sass/partials/_main.scss */
+/* line 1085, sass/partials/_main.scss */
 .navigation h2 {
   display: none;
   text-transform: capitalize;
@@ -1283,7 +1291,7 @@ p {
 
 /*PAGESLIDE*/
 /* line 52, ../sass/partials/_navigation.scss */
-/* line 1094, sass/partials/_main.scss */
+/* line 1097, sass/partials/_main.scss */
 #pageslide {
   /* These styles MUST be included. Do not change. */
   display: none;
@@ -1303,13 +1311,13 @@ p {
 }
 
 /* line 70, ../sass/partials/_navigation.scss */
-/* line 1112, sass/partials/_main.scss */
+/* line 1115, sass/partials/_main.scss */
 #pageslide .navigation ul {
   padding: 0px;
 }
 
 /* line 73, ../sass/partials/_navigation.scss */
-/* line 1116, sass/partials/_main.scss */
+/* line 1119, sass/partials/_main.scss */
 #pageslide .navigation ul li {
   display: block;
   border-bottom: 1px solid #555;
@@ -1318,17 +1326,18 @@ p {
 }
 
 /* line 79, ../sass/partials/_navigation.scss */
-/* line 1123, sass/partials/_main.scss */
+/* line 1126, sass/partials/_main.scss */
 #pageslide .navigation ul li a {
   padding: 0 15px 15px;
   margin: 0;
   padding: 15px 20px;
   text-align: left;
   color: #999;
+  border: none;
 }
 
 /* line 86, ../sass/partials/_navigation.scss */
-/* line 1131, sass/partials/_main.scss */
+/* line 1135, sass/partials/_main.scss */
 #pageslide .navigation ul li a:hover {
   color: #fff;
   border: none;
@@ -1336,13 +1345,13 @@ p {
 }
 
 /* line 92, ../sass/partials/_navigation.scss */
-/* line 1137, sass/partials/_main.scss */
+/* line 1141, sass/partials/_main.scss */
 #pageslide .navigation ul li a.btn-praises {
   margin: 0;
 }
 
 /* line 99, ../sass/partials/_navigation.scss */
-/* line 1141, sass/partials/_main.scss */
+/* line 1145, sass/partials/_main.scss */
 #pageslide .navigation ul li.active a {
   border: none;
   background: rgba(255, 255, 255, 0.05);
@@ -1350,13 +1359,13 @@ p {
 }
 
 /* line 108, ../sass/partials/_navigation.scss */
-/* line 1147, sass/partials/_main.scss */
+/* line 1151, sass/partials/_main.scss */
 #pageslide .navigation h2 {
   display: block;
 }
 
 /* line 114, ../sass/partials/_navigation.scss */
-/* line 1152, sass/partials/_main.scss */
+/* line 1156, sass/partials/_main.scss */
 .open {
   width: 20px;
   margin-right: 10px;
@@ -1375,7 +1384,7 @@ p {
 }
 
 /* line 127, ../sass/partials/_navigation.scss */
-/* line 1169, sass/partials/_main.scss */
+/* line 1173, sass/partials/_main.scss */
 .open span {
   display: block;
   height: 3px;
@@ -1385,13 +1394,13 @@ p {
 }
 
 /* line 135, ../sass/partials/_navigation.scss */
-/* line 1177, sass/partials/_main.scss */
+/* line 1181, sass/partials/_main.scss */
 .open:hover {
   background-color: #fff;
 }
 
 /* line 140, ../sass/partials/_navigation.scss */
-/* line 1182, sass/partials/_main.scss */
+/* line 1186, sass/partials/_main.scss */
 .close {
   font-size: 26px;
   color: rgba(255, 255, 255, 0.5);
@@ -1408,33 +1417,33 @@ p {
 }
 
 /* line 150, ../sass/partials/_navigation.scss */
-/* line 1197, sass/partials/_main.scss */
+/* line 1201, sass/partials/_main.scss */
 .close:hover {
   color: #fff;
 }
 
 /* line 157, ../sass/partials/_navigation.scss */
-/* line 1202, sass/partials/_main.scss */
+/* line 1206, sass/partials/_main.scss */
 .open, .close {
   display: none;
 }
 
 /* line 162, ../sass/partials/_navigation.scss */
-/* line 1207, sass/partials/_main.scss */
+/* line 1211, sass/partials/_main.scss */
 .menu {
   background: url(images/menu-bg.jpg) no-repeat top center;
   position: relative;
 }
 
 /* line 166, ../sass/partials/_navigation.scss */
-/* line 1212, sass/partials/_main.scss */
+/* line 1216, sass/partials/_main.scss */
 .menu ul {
   list-style: none;
   padding: 0;
 }
 
 /* line 170, ../sass/partials/_navigation.scss */
-/* line 1217, sass/partials/_main.scss */
+/* line 1221, sass/partials/_main.scss */
 .menu ul li {
   display: inline-block;
   width: 300px;
@@ -1442,7 +1451,7 @@ p {
 }
 
 /* line 175, ../sass/partials/_navigation.scss */
-/* line 1223, sass/partials/_main.scss */
+/* line 1227, sass/partials/_main.scss */
 .menu ul li a {
   text-align: center;
   display: block;
@@ -1451,32 +1460,32 @@ p {
 }
 
 /* line 182, ../sass/partials/_navigation.scss */
-/* line 1230, sass/partials/_main.scss */
+/* line 1234, sass/partials/_main.scss */
 .menu ul li .btn-flexiwork-mums {
   color: #3ed4bc;
 }
 
 /* line 186, ../sass/partials/_navigation.scss */
-/* line 1234, sass/partials/_main.scss */
+/* line 1238, sass/partials/_main.scss */
 .menu ul li .btn-employers {
   color: #e95793;
 }
 
 /* line 190, ../sass/partials/_navigation.scss */
-/* line 1238, sass/partials/_main.scss */
+/* line 1242, sass/partials/_main.scss */
 .menu ul li .btn-mumpreneurs {
   color: #802d9e;
 }
 
 /* line 203, ../sass/partials/_navigation.scss */
-/* line 1243, sass/partials/_main.scss */
+/* line 1247, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation, .employers-page .navigation, .mumpreneurs-page .navigation {
   background-color: #00ac90;
   display: block;
 }
 
 /* line 209, ../sass/partials/_navigation.scss */
-/* line 1248, sass/partials/_main.scss */
+/* line 1252, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation ul, .employers-page .navigation ul, .mumpreneurs-page .navigation ul {
   margin: 0;
   padding: 0;
@@ -1486,7 +1495,7 @@ p {
 }
 
 /* line 216, ../sass/partials/_navigation.scss */
-/* line 1256, sass/partials/_main.scss */
+/* line 1260, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation ul li, .employers-page .navigation ul li, .mumpreneurs-page .navigation ul li {
   display: inline-block;
   padding: 10px 0;
@@ -1494,7 +1503,7 @@ p {
 }
 
 /* line 221, ../sass/partials/_navigation.scss */
-/* line 1262, sass/partials/_main.scss */
+/* line 1266, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation ul li a, .employers-page .navigation ul li a, .mumpreneurs-page .navigation ul li a {
   font-family: 'Droid Sans', serif;
   font-size: 0.875em;
@@ -1505,57 +1514,57 @@ p {
 }
 
 /* line 229, ../sass/partials/_navigation.scss */
-/* line 1271, sass/partials/_main.scss */
+/* line 1275, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation ul li a:hover, .employers-page .navigation ul li a:hover, .mumpreneurs-page .navigation ul li a:hover {
   border-bottom: none;
   color: #fff;
 }
 
 /* line 237, ../sass/partials/_navigation.scss */
-/* line 1276, sass/partials/_main.scss */
+/* line 1280, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation ul li.active a, .employers-page .navigation ul li.active a, .mumpreneurs-page .navigation ul li.active a {
   border-bottom: none;
   color: #fff;
 }
 
 /* line 243, ../sass/partials/_navigation.scss */
-/* line 1281, sass/partials/_main.scss */
+/* line 1285, sass/partials/_main.scss */
 .flexiwork-mum-page .navigation ul li .btn-praises, .employers-page .navigation ul li .btn-praises, .mumpreneurs-page .navigation ul li .btn-praises {
   margin-left: 237px;
 }
 
 /* line 252, ../sass/partials/_navigation.scss */
-/* line 1286, sass/partials/_main.scss */
+/* line 1290, sass/partials/_main.scss */
 .employers-page .navigation {
   background-color: #da005a;
 }
 
 /* line 256, ../sass/partials/_navigation.scss */
-/* line 1290, sass/partials/_main.scss */
+/* line 1294, sass/partials/_main.scss */
 .employers-page .navigation ul li a {
   color: #E88AB1;
 }
 
 /* line 265, ../sass/partials/_navigation.scss */
-/* line 1295, sass/partials/_main.scss */
+/* line 1299, sass/partials/_main.scss */
 .mumpreneurs-page .navigation {
   background-color: #60197a;
 }
 
 /* line 269, ../sass/partials/_navigation.scss */
-/* line 1299, sass/partials/_main.scss */
+/* line 1303, sass/partials/_main.scss */
 .mumpreneurs-page .navigation ul li a {
   color: #9B88A2;
 }
 
 /* line 1, ../sass/partials/_buttons.scss */
-/* line 1304, sass/partials/_main.scss */
+/* line 1308, sass/partials/_main.scss */
 .btn-flexiwork-mums img, .btn-employers img, .btn-mumpreneurs img {
   margin-bottom: 10px;
 }
 
 /* line 5, ../sass/partials/_buttons.scss */
-/* line 1309, sass/partials/_main.scss */
+/* line 1313, sass/partials/_main.scss */
 .btn-circle-arrow-down, .btn-circle-arrow-up {
   display: inline-block;
   position: absolute;
@@ -1565,14 +1574,14 @@ p {
 }
 
 /* line 13, ../sass/partials/_buttons.scss */
-/* line 1318, sass/partials/_main.scss */
+/* line 1322, sass/partials/_main.scss */
 .btn-circle-arrow-up {
   bottom: auto;
   top: -27px;
 }
 
 /* line 18, ../sass/partials/_buttons.scss */
-/* line 1324, sass/partials/_main.scss */
+/* line 1328, sass/partials/_main.scss */
 .btn-join-us-for-free {
   text-align: center;
   background-color: #f56d6d;
@@ -1584,20 +1593,20 @@ p {
 }
 
 /* line 27, ../sass/partials/_buttons.scss */
-/* line 1334, sass/partials/_main.scss */
+/* line 1338, sass/partials/_main.scss */
 .btn-join-us-for-free:hover {
   background-color: #fc2e2e;
 }
 
 /* line 32, ../sass/partials/_buttons.scss */
-/* line 1339, sass/partials/_main.scss */
+/* line 1343, sass/partials/_main.scss */
 .social-links {
   width: 300px;
   display: inline-block;
 }
 
 /* line 36, ../sass/partials/_buttons.scss */
-/* line 1344, sass/partials/_main.scss */
+/* line 1348, sass/partials/_main.scss */
 .social-links span {
   background-color: #3ed4bc;
   display: block;
@@ -1610,7 +1619,7 @@ p {
 }
 
 /* line 47, ../sass/partials/_buttons.scss */
-/* line 1355, sass/partials/_main.scss */
+/* line 1359, sass/partials/_main.scss */
 .social-links ul {
   padding: 10px 0;
   margin: 0;
@@ -1620,7 +1629,7 @@ p {
 }
 
 /* line 54, ../sass/partials/_buttons.scss */
-/* line 1363, sass/partials/_main.scss */
+/* line 1367, sass/partials/_main.scss */
 .social-links ul li {
   display: inline-block;
   width: 22%;
@@ -1629,7 +1638,7 @@ p {
 }
 
 /* line 65, ../sass/partials/_buttons.scss */
-/* line 1371, sass/partials/_main.scss */
+/* line 1375, sass/partials/_main.scss */
 .btn-read-more {
   display: inline-block;
   text-align: center;
@@ -1639,14 +1648,14 @@ p {
 }
 
 /* line 72, ../sass/partials/_buttons.scss */
-/* line 1379, sass/partials/_main.scss */
+/* line 1383, sass/partials/_main.scss */
 .btn-read-more:hover {
   background-color: #ef1971;
   color: #fff;
 }
 
 /* line 78, ../sass/partials/_buttons.scss */
-/* line 1385, sass/partials/_main.scss */
+/* line 1389, sass/partials/_main.scss */
 .btn-signup {
   background-color: #3ed4bc;
   color: #fff;
@@ -1657,121 +1666,121 @@ p {
 }
 
 /* line 86, ../sass/partials/_buttons.scss */
-/* line 1394, sass/partials/_main.scss */
+/* line 1398, sass/partials/_main.scss */
 .btn-signup:hover {
   background-color: #1dbda3;
 }
 
 /* line 93, ../sass/partials/_buttons.scss */
-/* line 1399, sass/partials/_main.scss */
+/* line 1403, sass/partials/_main.scss */
 .img-block .bg-coral {
   background-color: #f7a8a7;
 }
 
 /* line 96, ../sass/partials/_buttons.scss */
-/* line 1403, sass/partials/_main.scss */
+/* line 1407, sass/partials/_main.scss */
 .img-block .bg-pink {
   background-color: #e95793;
 }
 
 /* line 99, ../sass/partials/_buttons.scss */
-/* line 1407, sass/partials/_main.scss */
+/* line 1411, sass/partials/_main.scss */
 .img-block .bg-purple {
   background-color: #802d9e;
 }
 
 /* line 102, ../sass/partials/_buttons.scss */
-/* line 1411, sass/partials/_main.scss */
+/* line 1415, sass/partials/_main.scss */
 .img-block .bg-cream {
   background-color: #f6c780;
 }
 
 /* line 105, ../sass/partials/_buttons.scss */
-/* line 1415, sass/partials/_main.scss */
+/* line 1419, sass/partials/_main.scss */
 .img-block .bg-green {
   background-color: #3ed4bc;
 }
 
 /* line 111, ../sass/partials/_buttons.scss */
-/* line 1419, sass/partials/_main.scss */
+/* line 1423, sass/partials/_main.scss */
 .img-block:hover .img-jobs {
   background-position: 0px -370px;
 }
 
 /* line 115, ../sass/partials/_buttons.scss */
-/* line 1423, sass/partials/_main.scss */
+/* line 1427, sass/partials/_main.scss */
 .img-block:hover .img-hire-a-career-coach {
   background-position: -210px -370px;
 }
 
 /* line 119, ../sass/partials/_buttons.scss */
-/* line 1427, sass/partials/_main.scss */
+/* line 1431, sass/partials/_main.scss */
 .img-block:hover .img-free-resource {
   background-position: -420px -370px;
 }
 
 /* line 123, ../sass/partials/_buttons.scss */
-/* line 1431, sass/partials/_main.scss */
+/* line 1435, sass/partials/_main.scss */
 .img-block:hover .img-attend-an-event {
   background-position: -630px -370px;
 }
 
 /* line 128, ../sass/partials/_buttons.scss */
-/* line 1435, sass/partials/_main.scss */
+/* line 1439, sass/partials/_main.scss */
 .img-block:hover .img-list-your-jobs {
   background-position: -840px -370px;
 }
 
 /* line 133, ../sass/partials/_buttons.scss */
-/* line 1439, sass/partials/_main.scss */
+/* line 1443, sass/partials/_main.scss */
 .img-block:hover .img-hire-us-to-train {
   background-position: -1050px -370px;
 }
 
 /* line 137, ../sass/partials/_buttons.scss */
-/* line 1443, sass/partials/_main.scss */
+/* line 1447, sass/partials/_main.scss */
 .img-block:hover .img-business-directory {
   background-position: -1260px -370px;
 }
 
 /* line 141, ../sass/partials/_buttons.scss */
-/* line 1447, sass/partials/_main.scss */
+/* line 1451, sass/partials/_main.scss */
 .img-block:hover .img-business-consultant {
   background-position: -1470px -370px;
 }
 
 /* line 145, ../sass/partials/_buttons.scss */
-/* line 1451, sass/partials/_main.scss */
+/* line 1455, sass/partials/_main.scss */
 .img-block:hover .bg-coral {
   background-color: #fa6e6c;
 }
 
 /* line 148, ../sass/partials/_buttons.scss */
-/* line 1455, sass/partials/_main.scss */
+/* line 1459, sass/partials/_main.scss */
 .img-block:hover .bg-pink {
   background-color: #ef1971;
 }
 
 /* line 151, ../sass/partials/_buttons.scss */
-/* line 1459, sass/partials/_main.scss */
+/* line 1463, sass/partials/_main.scss */
 .img-block:hover .bg-purple {
   background-color: #60197a;
 }
 
 /* line 154, ../sass/partials/_buttons.scss */
-/* line 1463, sass/partials/_main.scss */
+/* line 1467, sass/partials/_main.scss */
 .img-block:hover .bg-cream {
   background-color: #fcb242;
 }
 
 /* line 157, ../sass/partials/_buttons.scss */
-/* line 1467, sass/partials/_main.scss */
+/* line 1471, sass/partials/_main.scss */
 .img-block:hover .bg-green {
   background-color: #1dbda3;
 }
 
 /* line 3, ../sass/partials/_pages.scss */
-/* line 1472, sass/partials/_main.scss */
+/* line 1476, sass/partials/_main.scss */
 .flexiwork-mum-page .header, .employers-page .header, .mumpreneurs-page .header {
   width: 100%;
   background-color: #3ed4bc;
@@ -1779,7 +1788,7 @@ p {
 }
 
 /* line 8, ../sass/partials/_pages.scss */
-/* line 1478, sass/partials/_main.scss */
+/* line 1482, sass/partials/_main.scss */
 .flexiwork-mum-page .header .logo, .employers-page .header .logo, .mumpreneurs-page .header .logo {
   position: relative;
   top: 0;
@@ -1790,7 +1799,7 @@ p {
 }
 
 /* line 16, ../sass/partials/_pages.scss */
-/* line 1487, sass/partials/_main.scss */
+/* line 1491, sass/partials/_main.scss */
 .flexiwork-mum-page .header .logo a, .employers-page .header .logo a, .mumpreneurs-page .header .logo a {
   position: absolute;
   top: -80px;
@@ -1798,233 +1807,233 @@ p {
 }
 
 /* line 23, ../sass/partials/_pages.scss */
-/* line 1493, sass/partials/_main.scss */
+/* line 1497, sass/partials/_main.scss */
 .flexiwork-mum-page .header .wrap, .employers-page .header .wrap, .mumpreneurs-page .header .wrap {
   width: 100%;
   padding-top: 80px;
 }
 
 /* line 30, ../sass/partials/_pages.scss */
-/* line 1498, sass/partials/_main.scss */
+/* line 1502, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block, .employers-page .news-block, .mumpreneurs-page .news-block {
   background: url(images/bg02.jpg);
 }
 
 /* line 33, ../sass/partials/_pages.scss */
-/* line 1502, sass/partials/_main.scss */
+/* line 1506, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .left-column, .employers-page .news-block .left-column, .mumpreneurs-page .news-block .left-column {
   width: 460px;
 }
 
 /* line 37, ../sass/partials/_pages.scss */
-/* line 1506, sass/partials/_main.scss */
+/* line 1510, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .right-column, .employers-page .news-block .right-column, .mumpreneurs-page .news-block .right-column {
   width: 440px;
 }
 
 /* line 40, ../sass/partials/_pages.scss */
-/* line 1510, sass/partials/_main.scss */
+/* line 1514, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .right-column .img-block, .employers-page .news-block .right-column .img-block, .mumpreneurs-page .news-block .right-column .img-block {
   margin-left: 20px;
   float: left;
 }
 
 /* line 44, ../sass/partials/_pages.scss */
-/* line 1515, sass/partials/_main.scss */
+/* line 1519, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .right-column .img-block:nth-child(odd), .employers-page .news-block .right-column .img-block:nth-child(odd), .mumpreneurs-page .news-block .right-column .img-block:nth-child(odd) {
   margin-left: 0;
 }
 
 /* line 51, ../sass/partials/_pages.scss */
-/* line 1519, sass/partials/_main.scss */
+/* line 1523, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .news-head, .employers-page .news-block .wrap .news-head, .mumpreneurs-page .news-block .wrap .news-head {
   color: #3ed4bc;
 }
 
 /* line 53, ../sass/partials/_pages.scss */
-/* line 1523, sass/partials/_main.scss */
+/* line 1527, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .news-head span, .employers-page .news-block .wrap .news-head span, .mumpreneurs-page .news-block .wrap .news-head span {
   background: url(images/bg02.jpg);
 }
 
 /* line 59, ../sass/partials/_pages.scss */
-/* line 1527, sass/partials/_main.scss */
+/* line 1531, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .news-content .news-title, .employers-page .news-block .wrap .news-content .news-title, .mumpreneurs-page .news-block .wrap .news-content .news-title {
   color: #535353;
 }
 
 /* line 64, ../sass/partials/_pages.scss */
-/* line 1531, sass/partials/_main.scss */
+/* line 1535, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .pagination, .employers-page .news-block .wrap .pagination, .mumpreneurs-page .news-block .wrap .pagination {
   width: 340px;
 }
 
 /* line 72, ../sass/partials/_pages.scss */
-/* line 1535, sass/partials/_main.scss */
+/* line 1539, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .pagination li a:hover, .employers-page .news-block .wrap .pagination li a:hover, .mumpreneurs-page .news-block .wrap .pagination li a:hover {
   background: #3ed4bc;
 }
 
 /* line 80, ../sass/partials/_pages.scss */
-/* line 1539, sass/partials/_main.scss */
+/* line 1543, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .pagination li.active a, .employers-page .news-block .wrap .pagination li.active a, .mumpreneurs-page .news-block .wrap .pagination li.active a {
   background: #3ed4bc;
 }
 
 /* line 86, ../sass/partials/_pages.scss */
-/* line 1543, sass/partials/_main.scss */
+/* line 1547, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .btn-read-more, .employers-page .news-block .wrap .btn-read-more, .mumpreneurs-page .news-block .wrap .btn-read-more {
   background-color: #3ed4bc;
 }
 
 /* line 89, ../sass/partials/_pages.scss */
-/* line 1547, sass/partials/_main.scss */
+/* line 1551, sass/partials/_main.scss */
 .flexiwork-mum-page .news-block .wrap .btn-read-more:hover, .employers-page .news-block .wrap .btn-read-more:hover, .mumpreneurs-page .news-block .wrap .btn-read-more:hover {
   background-color: #1dbda3;
 }
 
 /* line 96, ../sass/partials/_pages.scss */
-/* line 1551, sass/partials/_main.scss */
+/* line 1555, sass/partials/_main.scss */
 .flexiwork-mum-page .footer, .employers-page .footer, .mumpreneurs-page .footer {
   background: url(images/bg06.jpg);
 }
 
 /* line 99, ../sass/partials/_pages.scss */
-/* line 1555, sass/partials/_main.scss */
+/* line 1559, sass/partials/_main.scss */
 .flexiwork-mum-page .footer .copyright, .flexiwork-mum-page .footer .links, .flexiwork-mum-page .footer .designer, .employers-page .footer .copyright, .employers-page .footer .links, .employers-page .footer .designer, .mumpreneurs-page .footer .copyright, .mumpreneurs-page .footer .links, .mumpreneurs-page .footer .designer {
   background: url(images/bg06.jpg);
 }
 
 /* line 108, ../sass/partials/_pages.scss */
-/* line 1560, sass/partials/_main.scss */
+/* line 1564, sass/partials/_main.scss */
 .employers-page .header {
   background-color: #e95793;
 }
 
 /* line 112, ../sass/partials/_pages.scss */
-/* line 1564, sass/partials/_main.scss */
+/* line 1568, sass/partials/_main.scss */
 .employers-page .signup-form {
   background: url(images/signup-form-bg-02.png) no-repeat bottom right;
 }
 
 /* line 116, ../sass/partials/_pages.scss */
-/* line 1568, sass/partials/_main.scss */
+/* line 1572, sass/partials/_main.scss */
 .employers-page .signup-form .newsletter-form h1 {
   color: #e95793;
   border-bottom: 1px solid #e95793;
 }
 
 /* line 121, ../sass/partials/_pages.scss */
-/* line 1573, sass/partials/_main.scss */
+/* line 1577, sass/partials/_main.scss */
 .employers-page .signup-form .newsletter-form .btn-signup {
   background-color: #e95793;
 }
 
 /* line 124, ../sass/partials/_pages.scss */
-/* line 1577, sass/partials/_main.scss */
+/* line 1581, sass/partials/_main.scss */
 .employers-page .signup-form .newsletter-form .btn-signup:hover {
   background-color: #ef1971;
 }
 
 /* line 134, ../sass/partials/_pages.scss */
-/* line 1581, sass/partials/_main.scss */
+/* line 1585, sass/partials/_main.scss */
 .employers-page .content h2 {
   color: #e95793;
 }
 
 /* line 142, ../sass/partials/_pages.scss */
-/* line 1585, sass/partials/_main.scss */
+/* line 1589, sass/partials/_main.scss */
 .employers-page .news-block .wrap .news-head {
   color: #e95793;
 }
 
 /* line 153, ../sass/partials/_pages.scss */
-/* line 1589, sass/partials/_main.scss */
+/* line 1593, sass/partials/_main.scss */
 .employers-page .news-block .wrap .pagination li a:hover {
   background: #e95793;
 }
 
 /* line 161, ../sass/partials/_pages.scss */
-/* line 1593, sass/partials/_main.scss */
+/* line 1597, sass/partials/_main.scss */
 .employers-page .news-block .wrap .pagination li.active a {
   background: #e95793;
 }
 
 /* line 167, ../sass/partials/_pages.scss */
-/* line 1597, sass/partials/_main.scss */
+/* line 1601, sass/partials/_main.scss */
 .employers-page .news-block .wrap .btn-read-more {
   background-color: #e95793;
 }
 
 /* line 170, ../sass/partials/_pages.scss */
-/* line 1601, sass/partials/_main.scss */
+/* line 1605, sass/partials/_main.scss */
 .employers-page .news-block .wrap .btn-read-more:hover {
   background-color: #ef1971;
 }
 
 /* line 186, ../sass/partials/_pages.scss */
-/* line 1606, sass/partials/_main.scss */
+/* line 1610, sass/partials/_main.scss */
 .mumpreneurs-page .header {
   background-color: #802d9e;
 }
 
 /* line 192, ../sass/partials/_pages.scss */
-/* line 1610, sass/partials/_main.scss */
+/* line 1614, sass/partials/_main.scss */
 .mumpreneurs-page .signup-form {
   background: url(images/signup-form-bg-03.png) no-repeat bottom right;
 }
 
 /* line 196, ../sass/partials/_pages.scss */
-/* line 1614, sass/partials/_main.scss */
+/* line 1618, sass/partials/_main.scss */
 .mumpreneurs-page .signup-form .newsletter-form h1 {
   color: #802d9e;
   border-bottom: 1px solid #802d9e;
 }
 
 /* line 201, ../sass/partials/_pages.scss */
-/* line 1619, sass/partials/_main.scss */
+/* line 1623, sass/partials/_main.scss */
 .mumpreneurs-page .signup-form .newsletter-form .btn-signup {
   background-color: #802d9e;
 }
 
 /* line 204, ../sass/partials/_pages.scss */
-/* line 1623, sass/partials/_main.scss */
+/* line 1627, sass/partials/_main.scss */
 .mumpreneurs-page .signup-form .newsletter-form .btn-signup:hover {
   background-color: #60197a;
 }
 
 /* line 214, ../sass/partials/_pages.scss */
-/* line 1627, sass/partials/_main.scss */
+/* line 1631, sass/partials/_main.scss */
 .mumpreneurs-page .content h2 {
   color: #802d9e;
 }
 
 /* line 222, ../sass/partials/_pages.scss */
-/* line 1631, sass/partials/_main.scss */
+/* line 1635, sass/partials/_main.scss */
 .mumpreneurs-page .news-block .wrap .news-head {
   color: #802d9e;
 }
 
 /* line 233, ../sass/partials/_pages.scss */
-/* line 1635, sass/partials/_main.scss */
+/* line 1639, sass/partials/_main.scss */
 .mumpreneurs-page .news-block .wrap .pagination li a:hover {
   background: #802d9e;
 }
 
 /* line 241, ../sass/partials/_pages.scss */
-/* line 1639, sass/partials/_main.scss */
+/* line 1643, sass/partials/_main.scss */
 .mumpreneurs-page .news-block .wrap .pagination li.active a {
   background: #802d9e;
 }
 
 /* line 247, ../sass/partials/_pages.scss */
-/* line 1643, sass/partials/_main.scss */
+/* line 1647, sass/partials/_main.scss */
 .mumpreneurs-page .news-block .wrap .btn-read-more {
   background-color: #802d9e;
 }
 
 /* line 250, ../sass/partials/_pages.scss */
-/* line 1647, sass/partials/_main.scss */
+/* line 1651, sass/partials/_main.scss */
 .mumpreneurs-page .news-block .wrap .btn-read-more:hover {
   background-color: #60197a;
 }
@@ -2032,7 +2041,7 @@ p {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   /* line 2, ../sass/partials/_767.scss */
-  /* line 1654, sass/partials/_main.scss */
+  /* line 1658, sass/partials/_main.scss */
   .wrap {
     width: auto;
     padding-left: 20px;
@@ -2040,7 +2049,7 @@ p {
   }
 
   /* line 11, ../sass/partials/_767.scss */
-  /* line 1661, sass/partials/_main.scss */
+  /* line 1665, sass/partials/_main.scss */
   .banner .wrap {
     width: auto;
     padding: 80px 300px 80px 20px;
@@ -2049,13 +2058,13 @@ p {
   }
 
   /* line 24, ../sass/partials/_767.scss */
-  /* line 1669, sass/partials/_main.scss */
+  /* line 1673, sass/partials/_main.scss */
   .menu ul {
     text-align: center;
   }
 
   /* line 26, ../sass/partials/_767.scss */
-  /* line 1673, sass/partials/_main.scss */
+  /* line 1677, sass/partials/_main.scss */
   .menu ul li {
     width: 32%;
     margin: 0;
@@ -2063,50 +2072,50 @@ p {
   }
 
   /* line 31, ../sass/partials/_767.scss */
-  /* line 1679, sass/partials/_main.scss */
+  /* line 1683, sass/partials/_main.scss */
   .menu ul li a {
     line-height: 30px;
     font-size: 1.125em;
   }
 
   /* line 35, ../sass/partials/_767.scss */
-  /* line 1684, sass/partials/_main.scss */
+  /* line 1688, sass/partials/_main.scss */
   .menu ul li a img {
     margin: 0;
   }
 
   /* line 42, ../sass/partials/_767.scss */
-  /* line 1688, sass/partials/_main.scss */
+  /* line 1692, sass/partials/_main.scss */
   .menu .btn-flexiwork-mums img, .menu .btn-employers img, .menu .btn-mumpreneurs img {
     width: 100%;
   }
 
   /* line 52, ../sass/partials/_767.scss */
-  /* line 1693, sass/partials/_main.scss */
+  /* line 1697, sass/partials/_main.scss */
   .flexiwork-mum-page .header .wrap .logo, .employers-page .header .wrap .logo, .mumpreneurs-page .header .wrap .logo {
     width: auto;
   }
 
   /* line 54, ../sass/partials/_767.scss */
-  /* line 1697, sass/partials/_main.scss */
+  /* line 1701, sass/partials/_main.scss */
   .flexiwork-mum-page .header .wrap .logo a, .employers-page .header .wrap .logo a, .mumpreneurs-page .header .wrap .logo a {
     left: 20px;
   }
 
   /* line 63, ../sass/partials/_767.scss */
-  /* line 1701, sass/partials/_main.scss */
+  /* line 1705, sass/partials/_main.scss */
   .flexiwork-mum-page .content .wrap, .employers-page .content .wrap, .mumpreneurs-page .content .wrap {
     position: relative;
   }
 
   /* line 67, ../sass/partials/_767.scss */
-  /* line 1705, sass/partials/_main.scss */
+  /* line 1709, sass/partials/_main.scss */
   .flexiwork-mum-page .content .wrap .signup-form .newsletter-form .btn-signup, .employers-page .content .wrap .signup-form .newsletter-form .btn-signup, .mumpreneurs-page .content .wrap .signup-form .newsletter-form .btn-signup {
     margin-bottom: 0;
   }
 
   /* line 78, ../sass/partials/_767.scss */
-  /* line 1710, sass/partials/_main.scss */
+  /* line 1714, sass/partials/_main.scss */
   .news-block .wrap {
     width: auto;
     padding-left: 20px;
@@ -2114,20 +2123,20 @@ p {
   }
 
   /* line 83, ../sass/partials/_767.scss */
-  /* line 1716, sass/partials/_main.scss */
+  /* line 1720, sass/partials/_main.scss */
   .news-block .wrap .left-column {
     width: auto;
     margin-bottom: 20px;
   }
 
   /* line 87, ../sass/partials/_767.scss */
-  /* line 1721, sass/partials/_main.scss */
+  /* line 1725, sass/partials/_main.scss */
   .news-block .wrap .left-column .pagination {
     width: 100%;
   }
 
   /* line 90, ../sass/partials/_767.scss */
-  /* line 1725, sass/partials/_main.scss */
+  /* line 1729, sass/partials/_main.scss */
   .news-block .wrap .left-column .btn-holder {
     text-align: right;
     display: block;
@@ -2135,7 +2144,7 @@ p {
   }
 
   /* line 96, ../sass/partials/_767.scss */
-  /* line 1731, sass/partials/_main.scss */
+  /* line 1735, sass/partials/_main.scss */
   .news-block .wrap .right-column {
     width: auto;
     margin: 0;
@@ -2144,14 +2153,14 @@ p {
   }
 
   /* line 101, ../sass/partials/_767.scss */
-  /* line 1738, sass/partials/_main.scss */
+  /* line 1742, sass/partials/_main.scss */
   .news-block .wrap .right-column .img-block {
     float: none;
     margin: 0 1% 10px;
   }
 
   /* line 112, ../sass/partials/_767.scss */
-  /* line 1744, sass/partials/_main.scss */
+  /* line 1748, sass/partials/_main.scss */
   .footer-wrapper .footer .wrap {
     width: auto;
     padding-left: 20px;
@@ -2159,33 +2168,33 @@ p {
   }
 
   /* line 120, ../sass/partials/_767.scss */
-  /* line 1750, sass/partials/_main.scss */
+  /* line 1754, sass/partials/_main.scss */
   .footer-wrapper .img-as-seen-in {
     width: 100%;
   }
 
   /* line 126, ../sass/partials/_767.scss */
-  /* line 1755, sass/partials/_main.scss */
+  /* line 1759, sass/partials/_main.scss */
   .as-seen-in-block .wrap {
     position: relative;
   }
 
   /*PAGESLIDE*/
   /* line 132, ../sass/partials/_767.scss */
-  /* line 1761, sass/partials/_main.scss */
+  /* line 1765, sass/partials/_main.scss */
   .open, .close {
     display: block;
   }
 
   /* line 136, ../sass/partials/_767.scss */
-  /* line 1766, sass/partials/_main.scss */
+  /* line 1770, sass/partials/_main.scss */
   #navigation {
     display: none;
   }
 
   /*INNER PAGES*/
   /* line 145, ../sass/partials/_767.scss */
-  /* line 1772, sass/partials/_main.scss */
+  /* line 1776, sass/partials/_main.scss */
   .signup-form {
     overflow: hidden;
     background-position: bottom right;
@@ -2194,7 +2203,7 @@ p {
   }
 
   /* line 150, ../sass/partials/_767.scss */
-  /* line 1779, sass/partials/_main.scss */
+  /* line 1783, sass/partials/_main.scss */
   .signup-form .newsletter-form {
     width: 50%;
     -moz-box-sizing: border-box;
@@ -2205,20 +2214,20 @@ p {
   }
 
   /* line 159, ../sass/partials/_767.scss */
-  /* line 1788, sass/partials/_main.scss */
+  /* line 1792, sass/partials/_main.scss */
   .signup-form .newsletter-form .btn-holder {
     margin-left: 0;
     text-align: left;
   }
 
   /* line 164, ../sass/partials/_767.scss */
-  /* line 1793, sass/partials/_main.scss */
+  /* line 1797, sass/partials/_main.scss */
   .signup-form .newsletter-form p {
     margin-bottom: 10px;
   }
 
   /* line 168, ../sass/partials/_767.scss */
-  /* line 1797, sass/partials/_main.scss */
+  /* line 1801, sass/partials/_main.scss */
   .signup-form img {
     width: 100%;
     height: 100%;
@@ -2229,13 +2238,13 @@ p {
   }
 
   /* line 178, ../sass/partials/_767.scss */
-  /* line 1807, sass/partials/_main.scss */
+  /* line 1811, sass/partials/_main.scss */
   .footer-wrapper, .push {
     height: 315px;
   }
 
   /* line 182, ../sass/partials/_767.scss */
-  /* line 1812, sass/partials/_main.scss */
+  /* line 1816, sass/partials/_main.scss */
   .page {
     margin-bottom: -315px;
   }
@@ -2243,32 +2252,32 @@ p {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   /* line 2, ../sass/partials/_480.scss */
-  /* line 1819, sass/partials/_main.scss */
+  /* line 1823, sass/partials/_main.scss */
   .signup-form .img-mumpreneurs-banner {
     background-position: -100px center;
   }
 
   /* line 9, ../sass/partials/_480.scss */
-  /* line 1824, sass/partials/_main.scss */
+  /* line 1828, sass/partials/_main.scss */
   .news-block .wrap .right-column .img-block {
     margin: 0 0 10px;
   }
 
   /* line 17, ../sass/partials/_480.scss */
-  /* line 1829, sass/partials/_main.scss */
+  /* line 1833, sass/partials/_main.scss */
   .footer-wrapper .footer .wrap {
     padding: 20px 0;
   }
 
   /* line 19, ../sass/partials/_480.scss */
-  /* line 1833, sass/partials/_main.scss */
+  /* line 1837, sass/partials/_main.scss */
   .footer-wrapper .footer .wrap:before {
     content: '';
     background: none;
   }
 
   /* line 24, ../sass/partials/_480.scss */
-  /* line 1838, sass/partials/_main.scss */
+  /* line 1842, sass/partials/_main.scss */
   .footer-wrapper .footer .copyright, .footer-wrapper .footer .links, .footer-wrapper .footer .designer {
     display: block;
     text-align: center;
@@ -2276,19 +2285,19 @@ p {
   }
 
   /* line 32, ../sass/partials/_480.scss */
-  /* line 1845, sass/partials/_main.scss */
+  /* line 1849, sass/partials/_main.scss */
   .footer-wrapper, .push {
     height: 308px;
   }
 
   /* line 36, ../sass/partials/_480.scss */
-  /* line 1850, sass/partials/_main.scss */
+  /* line 1854, sass/partials/_main.scss */
   .page {
     margin-bottom: -308px;
   }
 
   /* line 41, ../sass/partials/_480.scss */
-  /* line 1855, sass/partials/_main.scss */
+  /* line 1859, sass/partials/_main.scss */
   .banner h1, .banner p {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
@@ -2296,26 +2305,26 @@ p {
   }
 
   /* line 46, ../sass/partials/_480.scss */
-  /* line 1861, sass/partials/_main.scss */
+  /* line 1865, sass/partials/_main.scss */
   .banner .wrap {
     padding-right: 180px;
   }
 
   /* line 49, ../sass/partials/_480.scss */
-  /* line 1865, sass/partials/_main.scss */
+  /* line 1869, sass/partials/_main.scss */
   .banner .wrap h1 {
     font-size: 1.5em;
     line-height: 28px;
   }
 
   /* line 56, ../sass/partials/_480.scss */
-  /* line 1871, sass/partials/_main.scss */
+  /* line 1875, sass/partials/_main.scss */
   .menu ul {
     text-align: center;
   }
 
   /* line 58, ../sass/partials/_480.scss */
-  /* line 1875, sass/partials/_main.scss */
+  /* line 1879, sass/partials/_main.scss */
   .menu ul li {
     display: inline-block;
     width: 300px;
@@ -2324,38 +2333,38 @@ p {
 }
 @media (max-width: 320px) {
   /* line 1, ../sass/partials/_320.scss */
-  /* line 1883, sass/partials/_main.scss */
+  /* line 1887, sass/partials/_main.scss */
   .footer-wrapper, .push {
     height: 292px;
   }
 
   /* line 5, ../sass/partials/_320.scss */
-  /* line 1888, sass/partials/_main.scss */
+  /* line 1892, sass/partials/_main.scss */
   .page {
     margin-bottom: -292px;
   }
 
   /* line 9, ../sass/partials/_320.scss */
-  /* line 1893, sass/partials/_main.scss */
+  /* line 1897, sass/partials/_main.scss */
   .btn-join-us-for-free, .social-links {
     width: 280px;
   }
 
   /* line 14, ../sass/partials/_320.scss */
-  /* line 1898, sass/partials/_main.scss */
+  /* line 1902, sass/partials/_main.scss */
   .banner .wrap {
     padding: 50px 20px;
   }
 
   /* line 19, ../sass/partials/_320.scss */
-  /* line 1903, sass/partials/_main.scss */
+  /* line 1907, sass/partials/_main.scss */
   .signup-form {
     display: block;
     background-position: left bottom;
   }
 
   /* line 22, ../sass/partials/_320.scss */
-  /* line 1908, sass/partials/_main.scss */
+  /* line 1912, sass/partials/_main.scss */
   .signup-form .newsletter-form {
     display: block;
     width: 100%;
@@ -2365,79 +2374,83 @@ p {
   }
 
   /* line 26, ../sass/partials/_320.scss */
-  /* line 1916, sass/partials/_main.scss */
+  /* line 1920, sass/partials/_main.scss */
   .signup-form .newsletter-form .form-inputs {
     width: auto;
   }
 
   /* line 30, ../sass/partials/_320.scss */
-  /* line 1920, sass/partials/_main.scss */
+  /* line 1924, sass/partials/_main.scss */
   .signup-form img {
     display: none;
   }
 
   /* line 36, ../sass/partials/_320.scss */
-  /* line 1925, sass/partials/_main.scss */
+  /* line 1929, sass/partials/_main.scss */
   .flexiwork-mum-page .signup-form, .employers-page .signup-form, .mumpreneurs-page .signup-form {
     background-position: left bottom;
   }
 
   /* line 40, ../sass/partials/_320.scss */
-  /* line 1929, sass/partials/_main.scss */
+  /* line 1933, sass/partials/_main.scss */
   .flexiwork-mum-page .signup-form .newsletter-form h1, .employers-page .signup-form .newsletter-form h1, .mumpreneurs-page .signup-form .newsletter-form h1 {
     font-size: 2em;
   }
 
   /* line 48, ../sass/partials/_320.scss */
-  /* line 1934, sass/partials/_main.scss */
+  /* line 1938, sass/partials/_main.scss */
   .content h2 {
     margin-bottom: 20px;
   }
 
   /* line 55, ../sass/partials/_320.scss */
-  /* line 1939, sass/partials/_main.scss */
+  /* line 1943, sass/partials/_main.scss */
   .menu ul li {
     width: 280px;
   }
 }
-/* prefixed */
-/* line 3, sass/partials/_layout.scss */
+/* line 1, sass/partials/_layout.scss */
+.wrap {
+  position: relative;
+}
+
+/* line 5, sass/partials/_layout.scss */
 .content h2 {
   line-height: 37px;
   margin-bottom: 20px;
   color: #e95793;
 }
-/* line 8, sass/partials/_layout.scss */
+/* line 10, sass/partials/_layout.scss */
 .content .wrap {
   padding: 45px 0;
 }
 
-/* line 17, sass/partials/_layout.scss */
+/* line 19, sass/partials/_layout.scss */
 .page-template-page-flexiwork-mums-php .news-block .wrap .news-content .news-title, .page-template-page-employers-php .news-block .wrap .news-content .news-title, .page-template-page-mumpreneurs-php .news-block .wrap .news-content .news-title {
   color: #535353;
 }
 
-/* line 26, sass/partials/_layout.scss */
+/* line 28, sass/partials/_layout.scss */
 .page-template-page-flexiwork-mums-php .content h2 {
   color: #3ed4bc;
 }
 
-/* line 33, sass/partials/_layout.scss */
+/* line 35, sass/partials/_layout.scss */
 .page-template-page-employers-php .content h2 {
   color: #e95793;
 }
 
-/* line 41, sass/partials/_layout.scss */
+/* line 43, sass/partials/_layout.scss */
 .page-template-page-mumpreneurs-php .content h2 {
   color: #802d9e;
 }
 
-/* line 46, sass/partials/_layout.scss */
+/* line 48, sass/partials/_layout.scss */
 .signup-form {
   margin-bottom: 0;
 }
 
-/* line 51, sass/partials/_layout.scss */
+/* line 53, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .as-feature-in {
   width: 75%;
   display: inline-block;
@@ -2448,11 +2461,11 @@ p {
   box-sizing: border-box;
   text-align: center;
 }
-/* line 59, sass/partials/_layout.scss */
+/* line 61, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .as-feature-in img {
   max-width: 100%;
 }
-/* line 63, sass/partials/_layout.scss */
+/* line 65, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .member-of {
   width: 25%;
   display: inline-block;
@@ -2462,9 +2475,117 @@ p {
   padding: 0 0 0 10px;
   text-align: center;
 }
-/* line 70, sass/partials/_layout.scss */
+/* line 72, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .member-of img {
   max-width: 100%;
+}
+
+/* line 79, sass/partials/_layout.scss */
+.carousel {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 89, sass/partials/_layout.scss */
+.carousel .carousel-item {
+  display: block !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* necessary for non-active slides */
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -ms-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+  opacity: 0;
+  backkground: url(images/bg02.jpg);
+}
+
+/* line 103, sass/partials/_layout.scss */
+.carousel .carousel-active {
+  display: block !important;
+  position: relative;
+  opacity: 1;
+}
+
+/* line 108, sass/partials/_layout.scss */
+.carousel .carousel-nav:nth-child(2) {
+  display: none !important;
+}
+
+/* line 112, sass/partials/_layout.scss */
+.carousel-nav-paginated ol {
+  margin: 0 4em;
+  padding: 0;
+}
+
+/* line 117, sass/partials/_layout.scss */
+.carousel-nav-paginated li,
+.carousel-nav-paginated li a {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 121, sass/partials/_layout.scss */
+.carousel-nav-paginated .carousel-active-page a {
+  text-decoration: none;
+}
+
+/* line 125, sass/partials/_layout.scss */
+.carousel-fade {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 134, sass/partials/_layout.scss */
+.carousel-fade .carousel-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* necessary for non-active slides */
+  display: block;
+  /* overrides basic carousel styles */
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -ms-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+
+/* line 146, sass/partials/_layout.scss */
+.carousel-fade .carousel-active {
+  position: relative;
+}
+
+/* line 150, sass/partials/_layout.scss */
+.carousel-fade .carousel-item,
+.carousel-fade .carousel-out {
+  opacity: 0;
+}
+
+/* line 154, sass/partials/_layout.scss */
+.carousel-fade .carousel-active,
+.carousel-fade .carousel-in {
+  opacity: 1;
+}
+
+/* line 158, sass/partials/_layout.scss */
+.carousel-nav .prev, .carousel-nav .next {
+  display: none;
 }
 
 /* line 4, sass/partials/_navigation.scss */
@@ -2674,5 +2795,36 @@ p {
   background-color: #60197a;
 }
 
+@media (max-width: 940px) {
+  /*.wrap {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  }*/
+}
 /* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 3, sass/partials/_767.scss */
+  .news-block .wrap .news-content {
+    margin: 0;
+  }
+  /* line 7, sass/partials/_767.scss */
+  .news-block .wrap .btn-holder {
+    float: none;
+    margin: 0;
+  }
+
+  /* line 16, sass/partials/_767.scss */
+  .footer-wrapper .as-seen-in-block .as-feature-in, .footer-wrapper .as-seen-in-block .member-of {
+    display: block;
+    width: auto;
+    margin-bottom: 10px;
+  }
+  /* line 23, sass/partials/_767.scss */
+  .footer-wrapper .footer .copyright, .footer-wrapper .footer .links, .footer-wrapper .footer .designer {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+}
 /* Landscape phones and down */

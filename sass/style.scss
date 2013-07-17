@@ -1,11 +1,15 @@
-/*07-16-2013*/
-@import "partials/main";
+/*07-17-2013*/
 @import "partials/mixins";
+@import "partials/main";
 @import "partials/sprites";
 @import "partials/layout";
 @import "partials/navigation";
 @import "partials/buttons";
 @import "partials/pages";
+
+@media (max-width: 940px) {
+	@import "partials/940";
+}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {

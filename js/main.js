@@ -13,3 +13,6 @@
 $(document).ready(function(){
 	$(".open").pageslide({ direction: "left", modal: true });
 });
+$(window).resize(function() {
+	$.pageslide.close()
+});

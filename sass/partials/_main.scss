@@ -789,7 +789,7 @@ p {
 }
 /* line 243, ../sass/partials/_layout.scss */
 .news-block .wrap .pagination li {
-  display: inline-block;
+  display: inline-block !important;
   position: relative;
   z-index: 2;
   margin-right: 5px;
@@ -808,6 +808,7 @@ p {
   font-weight: 400;
   padding: 4px 7px;
   line-height: 12px;
+  @include transition;
 }
 /* line 262, ../sass/partials/_layout.scss */
 .news-block .wrap .pagination li a:hover {
@@ -821,8 +822,10 @@ p {
 }
 /* line 278, ../sass/partials/_layout.scss */
 .news-block .wrap .btn-holder {
-  display: inline-block;
-  margin-left: 5px;
+  display: block;
+  float:right;
+  margin-top:-50px;
+  position:relative;
 }
 
 /* line 288, ../sass/partials/_layout.scss */
@@ -1126,6 +1129,7 @@ p {
   padding: 15px 20px;
   text-align: left;
   color: #999;
+  border:none;
 }
 /* line 86, ../sass/partials/_navigation.scss */
 #pageslide .navigation ul li a:hover {

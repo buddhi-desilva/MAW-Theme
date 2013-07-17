@@ -1,4 +1,6 @@
-
+.wrap {
+	position:relative;
+}
 .content {
 	h2 {
 		line-height:37px;
@@ -71,5 +73,89 @@
 				max-width:100%;
 			}
 		}
+	}
+}
+
+.carousel {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.carousel .carousel-item {
+	display: block !important;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%; /* necessary for non-active slides */
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+	opacity: 0;
+	backkground:url(#{$images}bg02.jpg);
+}
+.carousel .carousel-active {
+	display: block !important;
+	position: relative;
+	opacity: 1;
+}
+.carousel .carousel-nav:nth-child(2) {
+	display: none !important;
+}
+
+.carousel-nav-paginated ol {
+ margin: 0 4em;
+ padding: 0;
+}
+.carousel-nav-paginated li,
+.carousel-nav-paginated li a {
+	display: inline-block;
+	position: relative;
+}
+.carousel-nav-paginated .carousel-active-page a {
+	text-decoration: none;
+}
+
+.carousel-fade {
+	position: relative;
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-item {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%; /* necessary for non-active slides */
+	display: block; /* overrides basic carousel styles */
+	-webkit-transition: opacity .5s ease;
+	-moz-transition: opacity .5s ease;
+	-ms-transition: opacity .5s ease;
+	-o-transition: opacity .5s ease;
+	transition: opacity .5s ease;
+}
+.carousel-fade .carousel-active {
+	position: relative;
+}
+.carousel-fade .carousel-item,
+.carousel-fade .carousel-out {
+	opacity: 0;
+}
+.carousel-fade .carousel-active,
+.carousel-fade .carousel-in {
+	opacity: 1;
+}
+.carousel-nav {
+	.prev, .next {
+		display:none;
 	}
 }

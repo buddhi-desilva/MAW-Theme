@@ -1,0 +1,29 @@
+.news-block {
+	.wrap {
+		.news-content {
+			margin:0;
+		}
+		
+		.btn-holder {
+			float:none;
+			margin:0;
+		}
+		
+	}
+}
+.footer-wrapper {
+	.as-seen-in-block {
+		.as-feature-in, .member-of {
+			display:block;
+			width:auto;
+			margin-bottom:10px;
+		}
+	}
+	.footer {
+		.copyright, .links, .designer {
+			display: block;
+			text-align: center;
+			float: none;
+		}
+	}
+}
