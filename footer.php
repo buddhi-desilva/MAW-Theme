@@ -52,11 +52,29 @@
         <a href="#" class="btn-circle-arrow-up"><img class="img-circle-arrow-up" src="<?php echo CHILD_URL ?>/images/img_trans.gif" alt="Next" /></a>
         <div class="as-feature-in">
           <h3><span>As featured in</span></h3>
-          <img class="img-as-seen-in" src="<?php echo CHILD_URL ?>/images/as-seen-in.png" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/93fm.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/bazaar.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/chan5.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/channel-newsasia.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/the-new-paper.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/horizon.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/kiss92fm.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/le-petit.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/mad-about-kids.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/mypaper.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/simply-her.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/singapore-motherhood.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/the-new-age-parents.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/the-straits-times.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/thesundaytimes.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/todayonline.jpg" alt="" />
+           <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/young-parchts.jpg" alt="" />
         </div><!--
       --><div class="member-of">
           <h3><span>Member of</span></h3>
-          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/img-member-of.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/tafep.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/employer-alliance.jpg" alt="" />
+          <img class="img-member-of" src="<?php echo CHILD_URL ?>/images/logos/scwo.jpg" alt="" />
         </div>
       </div>
     </div><!--.as-seen-in-block-->

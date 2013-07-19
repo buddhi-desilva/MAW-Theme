@@ -2464,8 +2464,9 @@ p {
 /* line 61, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .as-feature-in img {
   max-width: 100%;
+  margin: 0 1% 5px;
 }
-/* line 65, sass/partials/_layout.scss */
+/* line 66, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .member-of {
   width: 25%;
   display: inline-block;
@@ -2475,12 +2476,13 @@ p {
   padding: 0 0 0 10px;
   text-align: center;
 }
-/* line 72, sass/partials/_layout.scss */
+/* line 73, sass/partials/_layout.scss */
 .footer-wrapper .as-seen-in-block .member-of img {
   max-width: 100%;
+  margin: 0 1% 5px;
 }
 
-/* line 79, sass/partials/_layout.scss */
+/* line 81, sass/partials/_layout.scss */
 .carousel {
   width: 100%;
   position: relative;
@@ -2492,7 +2494,7 @@ p {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 89, sass/partials/_layout.scss */
+/* line 91, sass/partials/_layout.scss */
 .carousel .carousel-item {
   display: block !important;
   position: absolute;
@@ -2509,37 +2511,37 @@ p {
   backkground: url(images/bg02.jpg);
 }
 
-/* line 103, sass/partials/_layout.scss */
+/* line 105, sass/partials/_layout.scss */
 .carousel .carousel-active {
   display: block !important;
   position: relative;
   opacity: 1;
 }
 
-/* line 108, sass/partials/_layout.scss */
+/* line 110, sass/partials/_layout.scss */
 .carousel .carousel-nav:nth-child(2) {
   display: none !important;
 }
 
-/* line 112, sass/partials/_layout.scss */
+/* line 114, sass/partials/_layout.scss */
 .carousel-nav-paginated ol {
   margin: 0 4em;
   padding: 0;
 }
 
-/* line 117, sass/partials/_layout.scss */
+/* line 119, sass/partials/_layout.scss */
 .carousel-nav-paginated li,
 .carousel-nav-paginated li a {
   display: inline-block;
   position: relative;
 }
 
-/* line 121, sass/partials/_layout.scss */
+/* line 123, sass/partials/_layout.scss */
 .carousel-nav-paginated .carousel-active-page a {
   text-decoration: none;
 }
 
-/* line 125, sass/partials/_layout.scss */
+/* line 127, sass/partials/_layout.scss */
 .carousel-fade {
   position: relative;
   overflow: hidden;
@@ -2550,7 +2552,7 @@ p {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 134, sass/partials/_layout.scss */
+/* line 136, sass/partials/_layout.scss */
 .carousel-fade .carousel-item {
   position: absolute;
   left: 0;
@@ -2566,24 +2568,24 @@ p {
   transition: opacity .5s ease;
 }
 
-/* line 146, sass/partials/_layout.scss */
+/* line 148, sass/partials/_layout.scss */
 .carousel-fade .carousel-active {
   position: relative;
 }
 
-/* line 150, sass/partials/_layout.scss */
+/* line 152, sass/partials/_layout.scss */
 .carousel-fade .carousel-item,
 .carousel-fade .carousel-out {
   opacity: 0;
 }
 
-/* line 154, sass/partials/_layout.scss */
+/* line 156, sass/partials/_layout.scss */
 .carousel-fade .carousel-active,
 .carousel-fade .carousel-in {
   opacity: 1;
 }
 
-/* line 158, sass/partials/_layout.scss */
+/* line 160, sass/partials/_layout.scss */
 .carousel-nav .prev, .carousel-nav .next {
   display: none;
 }
